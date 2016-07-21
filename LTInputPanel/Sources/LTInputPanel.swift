@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import IHKeyboardAvoiding
 
 
 public protocol LTCustomInputPanel {
