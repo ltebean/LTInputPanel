@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LTInputPanel" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoK-fk-SRV">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <state key="normal" title="hide"/>
+                                <connections>
+                                    <action selector="hideButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OLZ-F1-ru4"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WvG-hd-Dhw" customClass="LTInputPanel" customModule="LTInputPanel" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WvG-hd-Dhw" secondAttribute="trailing" id="NGw-wj-6E9"/>
+                            <constraint firstItem="GoK-fk-SRV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XPQ-i8-0K6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WvG-hd-Dhw" secondAttribute="bottom" id="XZO-Qv-k77"/>
+                            <constraint firstItem="GoK-fk-SRV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bC7-gd-8iK"/>
+                            <constraint firstItem="WvG-hd-Dhw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pd6-Cw-t39"/>
+                            <constraint firstItem="WvG-hd-Dhw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qLF-L0-kNr"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="inputPanel" destination="WvG-hd-Dhw" id="KFB-YU-AUC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="105" y="453"/>
         </scene>
     </scenes>
 </document>

@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652B17F926A1FC95CB4F3C2B /* Pods_LTInputPanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BE10042BDC195CF5E26FE7 /* Pods_LTInputPanel.framework */; };
 		B3E0C99F1D3F623500FD5496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C99E1D3F623500FD5496 /* AppDelegate.swift */; };
 		B3E0C9A11D3F623500FD5496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C9A01D3F623500FD5496 /* ViewController.swift */; };
 		B3E0C9A41D3F623500FD5496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E0C9A21D3F623500FD5496 /* Main.storyboard */; };
 		B3E0C9A61D3F623500FD5496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E0C9A51D3F623500FD5496 /* Assets.xcassets */; };
 		B3E0C9A91D3F623500FD5496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E0C9A71D3F623500FD5496 /* LaunchScreen.storyboard */; };
+		B3E0C9B31D3F626E00FD5496 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C9B11D3F626E00FD5496 /* DesignableButton.swift */; };
+		B3E0C9B41D3F626E00FD5496 /* XibBasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C9B21D3F626E00FD5496 /* XibBasedView.swift */; };
+		B3E0C9B61D3F628300FD5496 /* LTInputPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C9B51D3F628300FD5496 /* LTInputPanel.swift */; };
+		B3E0C9B81D3F62B100FD5496 /* LTInputPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E0C9B71D3F62B100FD5496 /* LTInputPanel.xib */; };
+		B3E0C9BA1D3F7BFA00FD5496 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C9B91D3F7BFA00FD5496 /* UIColor.swift */; };
+		B3E0C9BC1D3F82E500FD5496 /* LTInputResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C9BB1D3F82E500FD5496 /* LTInputResult.swift */; };
+		B3E0C9BE1D3F84BA00FD5496 /* CustomPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0C9BD1D3F84BA00FD5496 /* CustomPanel.swift */; };
+		B3E0C9C01D3F84C900FD5496 /* CustomPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E0C9BF1D3F84C900FD5496 /* CustomPanel.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186C5B0B3E5656A52FFBA8BC /* Pods-LTInputPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTInputPanel.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTInputPanel/Pods-LTInputPanel.release.xcconfig"; sourceTree = "<group>"; };
+		83BE10042BDC195CF5E26FE7 /* Pods_LTInputPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTInputPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E0C99B1D3F623500FD5496 /* LTInputPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTInputPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E0C99E1D3F623500FD5496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E0C9A01D3F623500FD5496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,15 @@
 		B3E0C9A51D3F623500FD5496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3E0C9A81D3F623500FD5496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3E0C9AA1D3F623500FD5496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E0C9B11D3F626E00FD5496 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		B3E0C9B21D3F626E00FD5496 /* XibBasedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibBasedView.swift; sourceTree = "<group>"; };
+		B3E0C9B51D3F628300FD5496 /* LTInputPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTInputPanel.swift; sourceTree = "<group>"; };
+		B3E0C9B71D3F62B100FD5496 /* LTInputPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTInputPanel.xib; sourceTree = "<group>"; };
+		B3E0C9B91D3F7BFA00FD5496 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B3E0C9BB1D3F82E500FD5496 /* LTInputResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTInputResult.swift; sourceTree = "<group>"; };
+		B3E0C9BD1D3F84BA00FD5496 /* CustomPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPanel.swift; sourceTree = "<group>"; };
+		B3E0C9BF1D3F84C900FD5496 /* CustomPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPanel.xib; sourceTree = "<group>"; };
+		F1ACB51AF580BA5337E1FC15 /* Pods-LTInputPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTInputPanel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTInputPanel/Pods-LTInputPanel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652B17F926A1FC95CB4F3C2B /* Pods_LTInputPanel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EE87E3590B895B92A551333 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1ACB51AF580BA5337E1FC15 /* Pods-LTInputPanel.debug.xcconfig */,
+				186C5B0B3E5656A52FFBA8BC /* Pods-LTInputPanel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51075DF68DEB250498019D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83BE10042BDC195CF5E26FE7 /* Pods_LTInputPanel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3E0C9921D3F623500FD5496 = {
 			isa = PBXGroup;
 			children = (
 				B3E0C99D1D3F623500FD5496 /* LTInputPanel */,
 				B3E0C99C1D3F623500FD5496 /* Products */,
+				2EE87E3590B895B92A551333 /* Pods */,
+				51075DF68DEB250498019D88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,30 @@
 		B3E0C99D1D3F623500FD5496 /* LTInputPanel */ = {
 			isa = PBXGroup;
 			children = (
+				B3E0C9B01D3F623B00FD5496 /* Sources */,
 				B3E0C99E1D3F623500FD5496 /* AppDelegate.swift */,
 				B3E0C9A01D3F623500FD5496 /* ViewController.swift */,
 				B3E0C9A21D3F623500FD5496 /* Main.storyboard */,
 				B3E0C9A51D3F623500FD5496 /* Assets.xcassets */,
 				B3E0C9A71D3F623500FD5496 /* LaunchScreen.storyboard */,
 				B3E0C9AA1D3F623500FD5496 /* Info.plist */,
+				B3E0C9BD1D3F84BA00FD5496 /* CustomPanel.swift */,
+				B3E0C9BF1D3F84C900FD5496 /* CustomPanel.xib */,
 			);
 			path = LTInputPanel;
+			sourceTree = "<group>";
+		};
+		B3E0C9B01D3F623B00FD5496 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B3E0C9B91D3F7BFA00FD5496 /* UIColor.swift */,
+				B3E0C9B11D3F626E00FD5496 /* DesignableButton.swift */,
+				B3E0C9B21D3F626E00FD5496 /* XibBasedView.swift */,
+				B3E0C9B51D3F628300FD5496 /* LTInputPanel.swift */,
+				B3E0C9B71D3F62B100FD5496 /* LTInputPanel.xib */,
+				B3E0C9BB1D3F82E500FD5496 /* LTInputResult.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3E0C9AD1D3F623500FD5496 /* Build configuration list for PBXNativeTarget "LTInputPanel" */;
 			buildPhases = (
+				C77571DD02CD9C1E78768889 /* [CP] Check Pods Manifest.lock */,
 				B3E0C9971D3F623500FD5496 /* Sources */,
 				B3E0C9981D3F623500FD5496 /* Frameworks */,
 				B3E0C9991D3F623500FD5496 /* Resources */,
+				E64B12B418A87BC1606EF368 /* [CP] Embed Pods Frameworks */,
+				589472F3B09F78FDB35D17E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +182,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3E0C9A91D3F623500FD5496 /* LaunchScreen.storyboard in Resources */,
+				B3E0C9B81D3F62B100FD5496 /* LTInputPanel.xib in Resources */,
 				B3E0C9A61D3F623500FD5496 /* Assets.xcassets in Resources */,
+				B3E0C9C01D3F84C900FD5496 /* CustomPanel.xib in Resources */,
 				B3E0C9A41D3F623500FD5496 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		589472F3B09F78FDB35D17E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTInputPanel/Pods-LTInputPanel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C77571DD02CD9C1E78768889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E64B12B418A87BC1606EF368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTInputPanel/Pods-LTInputPanel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3E0C9971D3F623500FD5496 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E0C9B61D3F628300FD5496 /* LTInputPanel.swift in Sources */,
+				B3E0C9BC1D3F82E500FD5496 /* LTInputResult.swift in Sources */,
+				B3E0C9BA1D3F7BFA00FD5496 /* UIColor.swift in Sources */,
 				B3E0C9A11D3F623500FD5496 /* ViewController.swift in Sources */,
 				B3E0C99F1D3F623500FD5496 /* AppDelegate.swift in Sources */,
+				B3E0C9B41D3F626E00FD5496 /* XibBasedView.swift in Sources */,
+				B3E0C9B31D3F626E00FD5496 /* DesignableButton.swift in Sources */,
+				B3E0C9BE1D3F84BA00FD5496 /* CustomPanel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +362,7 @@
 		};
 		B3E0C9AE1D3F623500FD5496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1ACB51AF580BA5337E1FC15 /* Pods-LTInputPanel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LTInputPanel/Info.plist;
@@ -258,6 +374,7 @@
 		};
 		B3E0C9AF1D3F623500FD5496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186C5B0B3E5656A52FFBA8BC /* Pods-LTInputPanel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LTInputPanel/Info.plist;
@@ -286,6 +403,7 @@
 				B3E0C9AF1D3F623500FD5496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
